@@ -1,0 +1,19 @@
+# Node modules
+**/node_modules/
+
+# Env files
+**/.env
+
+# Logs
+**/*.log
+
+# Build outputs
+**/build/
+**/dist/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
