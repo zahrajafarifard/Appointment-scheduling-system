@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Appointment-scheduling-system
-=======
 # Appointment Scheduling System
 
 Appointment Scheduling System is a full-stack web application for managing customer appointments, queue handling, and scheduling workflows.
@@ -17,7 +14,7 @@ The system supports:
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 appointment-scheduling-system/
@@ -29,16 +26,16 @@ appointment-scheduling-system/
 
 ---
 
-# Tech Stack
+## Tech Stack
 
-## Front End
+### Front End
 
 - React
 - React Router
 - Redux
 - Tailwind CSS
 
-## Back End
+### Back End
 
 - Node.js
 - Express.js
@@ -48,7 +45,7 @@ appointment-scheduling-system/
 
 ---
 
-# Prerequisites
+## Prerequisites
 
 Before running the project, install:
 
@@ -59,9 +56,9 @@ Before running the project, install:
 
 ---
 
-# Installation
+## Installation
 
-## 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone <your-repository-url>
@@ -70,7 +67,7 @@ cd appointment-scheduling-system
 
 ---
 
-# Front-End Setup
+## Front-End Setup
 
 ```bash
 cd front-end
@@ -99,7 +96,7 @@ http://localhost:3000
 
 ---
 
-# Back-End Setup
+## Back-End Setup
 
 ```bash
 cd back-end
@@ -121,21 +118,21 @@ JWT_SECRET=your_secret
 
 ---
 
-# Database Setup
+## Database Setup
 
-## Run migrations
+### Run migrations
 
 ```bash
 npx sequelize-cli db:migrate
 ```
 
-## Run seeders
+### Run seeders
 
 ```bash
 npx sequelize-cli db:seed:all
 ```
 
-## Undo all seeders
+### Undo all seeders
 
 ```bash
 npx sequelize-cli db:seed:undo:all
@@ -143,7 +140,7 @@ npx sequelize-cli db:seed:undo:all
 
 ---
 
-# Running the Back End
+## Running the Back End
 
 ```bash
 npm start
@@ -153,7 +150,7 @@ The default configuration uses `nodemon` for automatic server restarts during de
 
 ---
 
-# Appointment Scheduling Workflow
+## Appointment Scheduling Workflow
 
 Before customers can book appointments, the administrator must first configure the scheduling system through the admin dashboard.
 
@@ -175,9 +172,9 @@ If schedules or time slots are not configured by the administrator, customers wi
 
 ---
 
-# Features
+## Features
 
-## Customer Features
+### Customer Features
 
 - Register and authenticate
 - Browse available schedules
@@ -186,7 +183,7 @@ If schedules or time slots are not configured by the administrator, customers wi
 - Track request status
 - Receive generated tickets
 
-## Admin Features
+### Admin Features
 
 - Manage schedules and time slots
 - Control queue availability
@@ -197,7 +194,7 @@ If schedules or time slots are not configured by the administrator, customers wi
 
 ---
 
-# Build Front End for Production
+## Build Front End for Production
 
 ```bash
 cd front-end
@@ -212,7 +209,7 @@ front-end/build/
 
 ---
 
-# Seed Data
+## Seed Data
 
 The project includes Sequelize seeders for initializing system data such as:
 
@@ -232,4 +229,3 @@ back-end/seeders/
 # Authors
 
 - Zahra Jafarifard
->>>>>>> 3659706 (Initial project setup)

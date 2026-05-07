@@ -1,8 +1,3 @@
----
-
-# 📘 `back-end/README.md`
-
-```markdown
 # Appointment Scheduling System — Back End
 
 This directory contains the Express-based back-end API for the Appointment Scheduling System.
